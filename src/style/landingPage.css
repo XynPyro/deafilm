@@ -1,0 +1,64 @@
+/* navbar and intro */
+.myBG {
+  height: 100vh;
+  background: url("../assets/images/background/main.jpg");
+  background-size: cover;
+}
+
+.intro {
+  height: 300px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+  text-shadow: 2px 2px gray;
+  letter-spacing: 4px;
+}
+
+.hasShadows {
+  box-shadow: -2px 13px 27px -4px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: -2px 13px 27px -4px rgba(0, 0, 0, 1);
+  -moz-box-shadow: -2px 13px 27px -4px rgba(0, 0, 0, 1);
+}
+/* end of navbar and intro */
+
+/* trending css */
+.trending {
+  height: auto;
+  background: url("../assets/images/background/trending.jpg");
+  background-size: cover;
+}
+
+.card-img {
+  margin: 1px;
+}
+
+.movieWrapper {
+}
+
+.movieImage {
+  height: 500px;
+  background-color: black;
+  margin: 5px;
+  padding: 5px;
+  box-shadow: -2px 19px 45px 0px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: -2px 19px 45px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: -2px 19px 45px 0px rgba(0, 0, 0, 1);
+}
+
+.card {
+  border: none;
+}
+/* end of trending css */
+
+/* about */
+.about {
+  background: url("../assets/images/background/about.jpg");
+  height: 100vh;
+  background-size: cover;
+}
